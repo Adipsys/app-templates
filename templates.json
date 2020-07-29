@@ -92,7 +92,7 @@
   "administrator_only": true,
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
   "repository": {
-    "url": "https://github.com/adipsys/DNSprotect-compose",
+    "url": "https://github.com/adipsys/STUDIO-compose",
 "stackfile": "docker-compose.yml"
   }
  }
