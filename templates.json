@@ -93,7 +93,7 @@
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
   "repository": {
     "url": "https://github.com/adipsys/STUDIO-compose",
-    "stackfile": "docker-compose.yml",
+    "stackfile": "docker-compose.yml"},
    "env": [
       {
         "name": "MYSQL_ROOT_PASSWORD",
@@ -118,6 +118,5 @@
         "label": "Administration Interface Password"
       }
     ]
-  }
  }
 ]
