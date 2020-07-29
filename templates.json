@@ -1,0 +1,54 @@
+[
+ {
+  "type": 3,
+  "title": "HotspotManager",
+  "description": "Create captive portals compliant with Wi-Fi legislation and collect data.",
+  "note": "Deploys Adipsys HotspotManager onto your environment.",
+  "platform": "linux",
+  "administrator_only": true,
+  "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Logo-Hotspot-Manager-200x200-optimise.png",
+  "repository": {
+    "url": "https://github.com/adipsys/HotspotManager-compose",
+    "stackfile": "docker-stack.yml"
+  }
+ },
+ {
+  "type": 3,
+  "title": "DNSprotect",
+  "description": "Securize Wi-Fi connection: protect users by filtering malicious/illegal contents.",
+  "note": "Adipsys DNSprotect",
+  "platform": "linux",
+  "administrator_only": true,
+  "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-dns-protect-200x200-optimise.png",
+  "repository": {
+    "url": "https://github.com/adipsys/DNSprotect-compose",
+    "stackfile": "docker-stack.yml"
+  }
+ },
+ {
+  "type": 3,
+  "title": "LOGview",
+  "description": "Solution to trace Wi-Fi and handle the mandatory storage of legal logs.",
+  "note": "Adipsys LOGview",
+  "platform": "linux",
+  "administrator_only": true,
+  "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-log-view-200x200-optimise.png",
+  "repository": {
+    "url": "https://github.com/adipsys/DNSprotect-compose",
+    "stackfile": "docker-stack.yml"
+  }
+ },
+ {
+  "type": 3,
+  "title": "STUDIO",
+  "description": "Create and broadcast targeted advertising and informational contents before and / or after the captive portal.",
+  "note": "Adipsys STUDIO",
+  "platform": "linux",
+  "administrator_only": true,
+  "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
+  "repository": {
+    "url": "https://github.com/adipsys/DNSprotect-compose",
+    "stackfile": "docker-stack.yml"
+  }
+ }
+]
