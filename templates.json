@@ -93,7 +93,31 @@
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
   "repository": {
     "url": "https://github.com/adipsys/STUDIO-compose",
-"stackfile": "docker-compose.yml"
+"stackfile": "docker-compose.yml",
+   "env": [
+      {
+        "name": "MYSQL_ROOT_PASSWORD",
+        "label": "MySQL Root Password"
+      },
+      {
+       "name": "OPERATOR",
+       "label": "Operator",
+       "description": "Company Name (without spaces nor special chars)"
+      },
+    {
+        "name": "STUDIO_NAME",
+        "label": "Server URL"
+      },
+    {
+        "name": "OPERATOR_SUPPORT_EMAIL",
+        "label": "Support Email",
+        "default": "support@adipsys.com"
+      },
+    {
+        "name": "ADMIN_PASSWD",
+        "label": "Administration Interface Password"
+      }
+    ]
   }
  }
 ]
