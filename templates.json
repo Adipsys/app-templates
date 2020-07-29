@@ -9,8 +9,44 @@
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Logo-Hotspot-Manager-200x200-optimise.png",
   "repository": {
     "url": "https://github.com/adipsys/HotspotManager-compose",
-    "stackfile": "docker-stack.yml"
-  }
+    "stackfile": "docker-compose.yml"},
+  "env": [
+          {
+            "name": "MYSQL_ROOT_PASSWORD",
+            "label": "MySQL Root Password"
+          },
+          {
+            "name": "OPERATOR",
+            "label": "Operator",
+            "description": "Company Name (without spaces nor special chars)"
+          },
+          {
+            "name": "HM_SERVER_NAME",
+            "label": "Server Name",
+            "default": "wifi"
+          },
+          {
+            "name": "HM_URL_SUFFIX",
+            "label": "Domain"
+          },
+          {
+            "name": "HOTSPOT_ALIAS1",
+            "label": "Hotspot URL Alias"
+          },
+          {
+            "name": "ADMIN_ALIAS1",
+            "label": "Admin URL Alias"
+          },
+          {
+            "name": "MONITORING_ALIAS1",
+            "label": "Monitoring URL Alias"
+          },
+          {
+            "name": "OPERATOR_SUPPORT_EMAIL",
+            "label": "Support Email",
+            "default": "support@adipsys.com"
+          }
+    ]
  },
  {
   "type": 3,
@@ -22,8 +58,17 @@
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-dns-protect-200x200-optimise.png",
   "repository": {
     "url": "https://github.com/adipsys/DNSprotect-compose",
-    "stackfile": "docker-stack.yml"
-  }
+    "stackfile": "docker-compose.yml"},
+  "env": [
+      {
+        "name": "MYSQL_ROOT_PASSWORD",
+        "label": "MySQL Root Password"
+      },
+      {
+        "name": "SERVER_ALIAS",
+        "label": "Server URL Alias"
+      }
+    ]
  },
  {
   "type": 3,
@@ -34,8 +79,8 @@
   "administrator_only": true,
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-log-view-200x200-optimise.png",
   "repository": {
-    "url": "https://github.com/adipsys/DNSprotect-compose",
-    "stackfile": "docker-stack.yml"
+    "url": "https://github.com/adipsys/LOGview-compose",
+    "stackfile": "docker-compose.yml"
   }
  },
  {
@@ -48,7 +93,7 @@
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
   "repository": {
     "url": "https://github.com/adipsys/DNSprotect-compose",
-    "stackfile": "docker-stack.yml"
+"stackfile": "docker-compose.yml"
   }
  }
 ]
