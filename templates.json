@@ -104,16 +104,16 @@
        "label": "Operator",
        "description": "Company Name (without spaces nor special chars)"
       },
-    {
+      {
         "name": "STUDIO_NAME",
         "label": "Server URL"
       },
-    {
+      {
         "name": "OPERATOR_SUPPORT_EMAIL",
         "label": "Support Email",
         "default": "support@adipsys.com"
       },
-    {
+      {
         "name": "ADMIN_PASSWD",
         "label": "Administration Interface Password"
       }
