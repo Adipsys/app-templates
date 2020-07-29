@@ -94,7 +94,7 @@
   "repository": {
     "url": "https://github.com/adipsys/STUDIO-compose",
     "stackfile": "docker-compose.yml"},
-   "env": [
+  "env": [
       {
         "name": "MYSQL_ROOT_PASSWORD",
         "label": "MySQL Root Password"
