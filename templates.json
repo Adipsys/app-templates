@@ -74,7 +74,7 @@
   "type": 3,
   "title": "LOGview",
   "description": "Solution to trace Wi-Fi and handle the mandatory storage of legal logs.",
-  "note": "Adipsys LOGview : Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
+  "note": "Adipsys LOGview : Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com . Please run once : bin/elasticsearch-setup-passwords interactive to set credentials.",
   "platform": "linux",
   "administrator_only": true,
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-log-view-200x200-optimise.png",
