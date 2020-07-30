@@ -110,7 +110,7 @@
       },
       {
         "name": "STUDIO_NAME",
-        "label": "Server URL*"
+        "label": "Server URL*",
         "description": "This is the URL of the server (has also to be set onto your DNS)."
       },
       {
