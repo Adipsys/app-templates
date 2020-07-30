@@ -13,38 +13,38 @@
   "env": [
           {
             "name": "MYSQL_ROOT_PASSWORD",
-            "label": "MySQL Database Root Password",
+            "label": "MySQL Database Root Password*",
             "description": "Please keep the password for further use."
           },
           {
             "name": "OPERATOR",
-            "label": "Operator",
-            "description": "Company Name (without spaces nor special chars)."
+            "label": "Operator*",
+            "description": "Your Company Name (without spaces nor special chars)."
           },
           {
             "name": "HM_SERVER_NAME",
-            "label": "Server Name",
+            "label": "Server Name*",
+            "description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
             "default": "wifi"
           },
           {
             "name": "HM_URL_SUFFIX",
-            "label": "Domain"
+            "label": "Domain*",
+            "description": "i.e. adipsys.com"
           },
           {
             "name": "HOTSPOT_ALIAS1",
-            "label": "Hotspot URL Alias"
+            "label": "Hotspot URL Alias",
+            "description": "If you need a secondary URL for your Hotspot."
           },
           {
             "name": "ADMIN_ALIAS1",
-            "label": "Admin URL Alias"
-          },
-          {
-            "name": "MONITORING_ALIAS1",
-            "label": "Monitoring URL Alias"
+            "label": "Admin URL Alias",
+            "description": "If you need a secondary URL for your Admin interface."
           },
           {
             "name": "OPERATOR_SUPPORT_EMAIL",
-            "label": "Support Email",
+            "label": "Your Company support Email.",
             "default": "support@adipsys.com"
           }
     ]
@@ -63,12 +63,13 @@
   "env": [
       {
         "name": "MYSQL_ROOT_PASSWORD",
-        "label": "MySQL Database Root Password",
+        "label": "MySQL Database Root Password*",
         "description": "Please keep the password for further use."
       },
       {
         "name": "SERVER_ALIAS",
-        "label": "Server URL Alias"
+        "label": "Server URL*",
+        "description": "This is the URL of the Admin interface (has also to be set onto your DNS)"
       }
     ]
  },
@@ -99,26 +100,27 @@
   "env": [
       {
         "name": "MYSQL_ROOT_PASSWORD",
-        "label": "MySQL Database Root Password",
+        "label": "MySQL Database Root Password*",
         "description": "Please keep the password for further use."
       },
       {
        "name": "OPERATOR",
-       "label": "Operator",
-       "description": "Company Name (without spaces nor special chars)"
+       "label": "Operator*",
+       "description": "Your Company Name (without spaces nor special chars)."
       },
       {
         "name": "STUDIO_NAME",
-        "label": "Server URL"
+        "label": "Server URL*"
+        "description": "This is the URL of the server (has also to be set onto your DNS)."
       },
       {
         "name": "OPERATOR_SUPPORT_EMAIL",
-        "label": "Support Email",
+        "label": "Support Email*",
         "default": "support@adipsys.com"
       },
       {
         "name": "ADMIN_PASSWD",
-        "label": "Administration Interface Password"
+        "label": "Administration interface Password*"
       }
     ]
  }
