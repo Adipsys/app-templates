@@ -13,12 +13,13 @@
   "env": [
           {
             "name": "MYSQL_ROOT_PASSWORD",
-            "label": "MySQL Root Password"
+            "label": "MySQL Database Root Password",
+            "description": "Please keep the password for further use."
           },
           {
             "name": "OPERATOR",
             "label": "Operator",
-            "description": "Company Name (without spaces nor special chars)"
+            "description": "Company Name (without spaces nor special chars)."
           },
           {
             "name": "HM_SERVER_NAME",
@@ -62,7 +63,8 @@
   "env": [
       {
         "name": "MYSQL_ROOT_PASSWORD",
-        "label": "MySQL Root Password"
+        "label": "MySQL Database Root Password",
+        "description": "Please keep the password for further use."
       },
       {
         "name": "SERVER_ALIAS",
@@ -97,7 +99,8 @@
   "env": [
       {
         "name": "MYSQL_ROOT_PASSWORD",
-        "label": "MySQL Root Password"
+        "label": "MySQL Database Root Password",
+        "description": "Please keep the password for further use."
       },
       {
        "name": "OPERATOR",
