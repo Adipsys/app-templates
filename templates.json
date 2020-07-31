@@ -14,8 +14,7 @@
           {
             "name": "MYSQL_ROOT_PASSWORD",
             "label": "MySQL Database Root Password*",
-            "description": "Please keep the password for further use.",
-            "default": "shu3Equie1"
+            "description": "Please keep the password for further use."
           },
           {
             "name": "OPERATOR",
