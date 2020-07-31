@@ -83,7 +83,19 @@
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-log-view-200x200-optimise.png",
   "repository": {
     "url": "https://github.com/adipsys/LOGview-compose",
-    "stackfile": "docker-compose.yml"
+    "stackfile": "docker-compose.yml",
+  "env": [
+      {
+        "name": "ELASTICSEARCH_PASSWORD",
+        "label": "elastic account*",
+        "description": "This password will have to be initialized on elastic."
+      },
+      {
+        "name": "KIBANA_PASSWORD",
+        "label": "kibana_system account*",
+        "description": "This password will have to be initialized on elastic."
+      }
+    ] 
   }
  },
  {
