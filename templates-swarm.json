@@ -149,6 +149,18 @@
         "description": "This is the URL of the server (has also to be set onto your DNS)."
       },
       {
+        "name": "WEB_IHM_PORT",
+        "label": "Web interface HTTP port (TCP)",
+        "description": "If empty, default port is chosen.",
+        "default": "8080"
+      },
+      {
+        "name": "WEB_IHM_SSL_PORT",
+        "label": "Web interface HTTPS port (TCP)",
+        "description": "If empty, default port is chosen.",
+        "default": "8043"
+      },
+      {
         "name": "OPERATOR_SUPPORT_EMAIL",
         "label": "Support Email*",
         "default": "support@adipsys.com"
