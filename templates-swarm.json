@@ -47,7 +47,7 @@
           {
             "name": "RADIUS_ACC_PORT",
             "label": "Radius accounting port (UDP)",
-            "description": "If empty, random port is chosen",
+            "description": "If empty, random port is chosen.",
             "default": "1813"
           },
           {
