@@ -112,7 +112,7 @@
         "name": "KIBANA_PASSWORD",
         "label": "kibana_system account*",
         "description": "This password will have to be initialized on elastic."
-      }
+      },
       {
         "name": "WEB_IHM_PORT",
         "label": "Web interface HTTPS port (TCP)",
