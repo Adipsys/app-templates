@@ -115,7 +115,7 @@
       },
       {
         "name": "WEB_IHM_PORT",
-        "label": "Web interface HTTPS port (TCP)",
+        "label": "Web interface HTTP port (TCP)",
         "description": "If empty, default port is chosen.",
         "default": "5601"
       }
