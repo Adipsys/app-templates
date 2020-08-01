@@ -32,6 +32,7 @@
             "label": "Domain*",
             "description": "i.e. adipsys.com"
           },
+          {
             "name": "WEB_IHM_PORT",
             "label": "Web interface HTTPS port (TCP)",
             "description": "If empty, random port is chosen.",
