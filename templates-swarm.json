@@ -38,11 +38,13 @@
             "description": "If empty, random port is chosen.",
             "default": "8443"
           },
+          {
             "name": "RADIUS_AUTH_PORT",
             "label": "Radius authentication port (UDP)",
             "description": "If empty, random port is chosen.",
             "default": "1812"
           },
+          {
             "name": "RADIUS_ACC_PORT",
             "label": "Radius accounting port (UDP)",
             "description": "If empty, random port is chosen",
