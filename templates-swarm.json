@@ -118,7 +118,7 @@
         "label": "Web interface HTTPS port (TCP)",
         "description": "If empty, default port is chosen.",
         "default": "5601"
-      },
+      }
     ] 
  },
  {
