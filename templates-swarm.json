@@ -92,7 +92,7 @@
       {
         "name": "WEB_IHM_PORT",
         "label": "Web interface HTTP port (TCP)",
-        "description": "If empty, default port is chosen.",
+        "description": "If empty, default port is chosen. (it is not advised to use a different port)",
         "default": "80"
       },
       {
@@ -103,8 +103,8 @@
       },
       {
         "name": "DNS_PORT",
-        "label": "Web interface HTTPS port (UDP)",
-        "description": "If empty, default port is chosen.",
+        "label": "DNS server port (UDP)",
+        "description": "If empty, default port is chosen. (it is not advised to use a different port)",
         "default": "53"
       }
     ]
