@@ -88,6 +88,24 @@
         "name": "SERVER_ALIAS",
         "label": "Server URL*",
         "description": "This is the URL of the Admin interface (has also to be set onto your DNS)"
+      },
+      {
+        "name": "WEB_IHM_PORT",
+        "label": "Web interface HTTP port (TCP)",
+        "description": "If empty, default port is chosen.",
+        "default": "80"
+      },
+      {
+        "name": "WEB_IHM_SSL_PORT",
+        "label": "Web interface HTTPS port (TCP)",
+        "description": "If empty, default port is chosen.",
+        "default": "443"
+      },
+      {
+        "name": "DNS_PORT",
+        "label": "Web interface HTTPS port (UDP)",
+        "description": "If empty, default port is chosen.",
+        "default": "53"
       }
     ]
  },
