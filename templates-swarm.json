@@ -190,7 +190,7 @@
     ]
  },
  {
-  "type": 3,
+  "type": 1,
   "title": "Zabbix-Agent",
   "description": "Monitor UP! hosts with Zabbix.",
   "note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
@@ -203,19 +203,19 @@
   "env": [
       {
         "name": "ZBX_HOSTNAME",
-        "label": "MySQL Database Root Password*"
+        "label": "Hostname."
       },
       {
        "name": "ZBX_SERVER_HOST",
-       "label": "Operator*"
+       "label": "Server."
       },
       {
         "name": "ZBX_PASSIVESERVERS",
-        "label": "Server URL*"
+        "label": "Passive servers."
       },
       {
-        "name": "ZBX_ACTIVEERVERS",
-        "label": "Web interface HTTP port (TCP)"
+        "name": "ZBX_ACTIVESERVERS",
+        "label": "Active serveres."
       }
     ]
  }
