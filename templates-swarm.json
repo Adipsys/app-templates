@@ -196,7 +196,7 @@
   "note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
   "platform": "linux",
   "administrator_only": true,
-  "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
+  "logo": "https://assets.zabbix.com/img/logo/zabbix_logo_313x82.png",
   "repository": {
     "url": "https://github.com/adipsys/up-tools/",
     "stackfile": "zabbix-agent-compose.yml"},
