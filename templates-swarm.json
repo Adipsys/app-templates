@@ -200,6 +200,24 @@
   "image": "zabbix/zabbix-agent",
   "ports": [
         "10050:10050/tcp"
-   ]
+   ],
+    "env": [
+       {
+         "name": "ZBX_HOSTNAME",
+         "label": "Hostname"
+       },
+       {
+        "name": "ZBX_SERVER_HOST",
+        "label": "Server"
+       },
+       {
+         "name": "ZBX_PASSIVESERVERS",
+         "label": "Passive servers"
+       },
+       {
+         "name": "ZBX_ACTIVESERVERS",
+         "label": "Active serveres"
+       }
+     ]
  }
 ]
