@@ -203,19 +203,19 @@
   "env": [
       {
         "name": "ZBX_HOSTNAME",
-        "label": "Hostname."
+        "label": "Hostname"
       },
       {
        "name": "ZBX_SERVER_HOST",
-       "label": "Server."
+       "label": "Server"
       },
       {
         "name": "ZBX_PASSIVESERVERS",
-        "label": "Passive servers."
+        "label": "Passive servers"
       },
       {
         "name": "ZBX_ACTIVESERVERS",
-        "label": "Active serveres."
+        "label": "Active serveres"
       }
     ]
  }
