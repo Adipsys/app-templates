@@ -190,33 +190,16 @@
     ]
  },
  {
-  "type": 3,
+  "type": 1,
   "title": "Zabbix-Agent",
   "description": "Monitor UP! from an external Zabbix server.",
   "note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
   "platform": "linux",
   "administrator_only": true,
   "logo": "https://assets.zabbix.com/img/logo/zabbix_logo_313x82.png",
-  "repository": {
-    "url": "https://github.com/adipsys/up-tools/",
-    "stackfile": "zabbix-agent-compose.yml"},
-  "env": [
-      {
-        "name": "ZBX_HOSTNAME",
-        "label": "Hostname"
-      },
-      {
-       "name": "ZBX_SERVER_HOST",
-       "label": "Server"
-      },
-      {
-        "name": "ZBX_PASSIVESERVERS",
-        "label": "Passive servers"
-      },
-      {
-        "name": "ZBX_ACTIVESERVERS",
-        "label": "Active serveres"
-      }
-    ]
+  "image": "zabbix/zabbix-agent",
+  "ports": [
+        "10050:10050/tcp"
+   ]
  }
 ]
