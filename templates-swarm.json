@@ -188,5 +188,35 @@
         "label": "Administration interface Password*"
       }
     ]
+ },
+ {
+  "type": 3,
+  "title": "Zabbix-Agent",
+  "description": "Monitor UP! hosts with Zabbix.",
+  "note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
+  "platform": "linux",
+  "administrator_only": true,
+  "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
+  "repository": {
+    "url": "https://github.com/adipsys/up-tools/",
+    "stackfile": "zabbix-agent-compose.yml"},
+  "env": [
+      {
+        "name": "ZBX_HOSTNAME",
+        "label": "MySQL Database Root Password*"
+      },
+      {
+       "name": "ZBX_SERVER_HOST",
+       "label": "Operator*"
+      },
+      {
+        "name": "ZBX_PASSIVESERVERS",
+        "label": "Server URL*"
+      },
+      {
+        "name": "ZBX_ACTIVEERVERS",
+        "label": "Web interface HTTP port (TCP)"
+      }
+    ]
  }
 ]
