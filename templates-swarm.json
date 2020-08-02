@@ -190,7 +190,7 @@
     ]
  },
  {
-  "type": 2,
+  "type": 3,
   "title": "Zabbix-Agent",
   "description": "Monitor UP! from an external Zabbix server.",
   "note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
