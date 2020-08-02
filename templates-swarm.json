@@ -192,7 +192,7 @@
  {
   "type": 1,
   "title": "Zabbix-Agent",
-  "description": "Monitor UP! hosts with Zabbix.",
+  "description": "Monitor UP! from an external Zabbix server.",
   "note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
   "platform": "linux",
   "administrator_only": true,
