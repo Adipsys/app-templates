@@ -96,16 +96,16 @@
         "description": "This is the URL of the Admin interface (has also to be set onto your DNS)"
       },
       {
-        "name": "WEB_IHM_PORT",
-        "label": "Web interface HTTP port (TCP)",
-        "description": "If empty, default port is chosen. (it is not advised to use a different port)",
-        "default": "80"
-      },
-      {
         "name": "ADMIN_PASSWD",
         "label": "Administration interface password",
         "description": "Use account : admin",
         "default": "godnsp!"
+      },
+      {
+        "name": "WEB_IHM_PORT",
+        "label": "Web interface HTTP port (TCP)",
+        "description": "If empty, default port is chosen. (it is not advised to use a different port)",
+        "default": "80"
       },
       {
         "name": "WEB_IHM_SSL_PORT",
