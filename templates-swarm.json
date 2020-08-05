@@ -102,7 +102,7 @@
         "default": "80"
       },
       {
-        "name": "ADMIN_PASSWORD",
+        "name": "ADMIN_PASSWD",
         "label": "Administration interface password",
         "description": "Use account : admin",
         "default": "godnsp!"
