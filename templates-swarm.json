@@ -96,9 +96,14 @@
         "description": "Please keep the password for further use."
       },
       {
-        "name": "SERVER_ALIAS",
+        "name": "SERVER_NAME",
         "label": "Server URL*",
         "description": "This is the URL of the Admin interface (has also to be set onto your DNS)"
+      },
+      {
+        "name": "SERVER_ALIAS",
+        "label": "Server Alias*",
+        "description": "If you wish to use a secondary name or a wildcard (has also to be set onto your DNS)"
       },
       {
         "name": "ADMIN_PASSWD",
