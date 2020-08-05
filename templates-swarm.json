@@ -67,6 +67,11 @@
             "description": "If you need a secondary URL for your Admin interface."
           },
           {
+            "name": "RSYSLOG_SERVER",
+            "label": "Loghost",
+            "description": "If you need to send logs on another server (ie. LOGview)."
+          },
+          {
             "name": "OPERATOR_SUPPORT_EMAIL",
             "label": "Your Company support Email.",
             "default": "support@adipsys.com"
@@ -118,6 +123,11 @@
         "label": "DNS server port (UDP)",
         "description": "If empty, default port is chosen. (it is not advised to use a different port)",
         "default": "53"
+      },
+      {
+        "name": "RSYSLOG_SERVER",
+        "label": "Loghost",
+        "description": "If you need to send logs on another server (ie. LOGview)."
       }
     ]
  },
