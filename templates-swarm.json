@@ -102,6 +102,12 @@
         "default": "80"
       },
       {
+        "name": "ADMIN_PASSWORD",
+        "label": "Administration interface password",
+        "description": "Use account : admin",
+        "default": "godnsp!"
+      },
+      {
         "name": "WEB_IHM_SSL_PORT",
         "label": "Web interface HTTPS port (TCP)",
         "description": "If empty, default port is chosen.",
