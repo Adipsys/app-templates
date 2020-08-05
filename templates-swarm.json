@@ -102,7 +102,7 @@
       },
       {
         "name": "SERVER_ALIAS",
-        "label": "Server Alias*",
+        "label": "Server Alias",
         "description": "If you wish to use a secondary name or a wildcard (has also to be set onto your DNS)"
       },
       {
