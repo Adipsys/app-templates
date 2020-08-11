@@ -36,13 +36,13 @@
             "name": "WEB_IHM_PORT",
             "label": "Web interface HTTP port (TCP)",
             "description": "If empty, default port is chosen.",
-            "default": "8180"
+            "default": "8080"
           },
           {
             "name": "WEB_IHM_SSL_PORT",
             "label": "Web interface HTTPS port (TCP)",
             "description": "If empty, default port is chosen.",
-            "default": "8443"
+            "default": "8043"
           },
           {
             "name": "RADIUS_AUTH_PORT",
@@ -203,7 +203,7 @@
         "name": "WEB_IHM_SSL_PORT",
         "label": "Web interface HTTPS port (TCP)",
         "description": "If empty, default port is chosen.",
-        "default": "8043"
+        "default": "8143"
       },
       {
         "name": "OPERATOR_SUPPORT_EMAIL",
