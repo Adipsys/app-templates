@@ -20,7 +20,7 @@
           {
             "name": "OPERATOR",
             "label": "Operator*",
-            "description": "Your Company Name (without spaces nor special chars)."
+            "description": "Prospect Company Name (without spaces nor special chars)."
           },
           {
             "name": "HM_SERVER_NAME",
@@ -36,36 +36,34 @@
           {
             "name": "WEB_IHM_PORT",
             "label": "Web interface HTTP port (TCP)",
-            "description": "If empty, default port is chosen.",
-            "default": "8080"
+            "description": "If empty, default port is chosen."
           },
           {
             "name": "WEB_IHM_SSL_PORT",
             "label": "Web interface HTTPS port (TCP)",
-            "description": "If empty, default port is chosen.",
-            "default": "8043"
+            "description": "If empty, default port is chosen."
           },
           {
             "name": "RADIUS_AUTH_PORT",
             "label": "Radius authentication port (UDP)",
-            "description": "If empty, default port is chosen.",
-            "default": "1812"
+            "description": "If empty, default port is chosen."
           },
           {
             "name": "RADIUS_ACC_PORT",
             "label": "Radius accounting port (UDP)",
-            "description": "If empty, default port is chosen.",
-            "default": "1813"
+            "description": "If empty, default port is chosen."
           },
           {
             "name": "HOTSPOT_ALIAS1",
             "label": "Hotspot URL Alias",
-            "description": "If you need a secondary URL for your Hotspot."
+            "description": "If you need a secondary URL for your Hotspot.",
+            "default": "*.demo.adipsys.fr"
           },
           {
             "name": "ADMIN_ALIAS1",
             "label": "Admin URL Alias",
-            "description": "If you need a secondary URL for your Admin interface."
+            "description": "If you need a secondary URL for your Admin interface.",
+            "default": "*.demo.adipsys.fr"
           },
           {
             "name": "RSYSLOG_SERVER",
