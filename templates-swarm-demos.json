@@ -27,45 +27,53 @@
             "name": "HM_SERVER_NAME",
             "label": "Server Name*",
             "description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
-            "default": "wifi"
+            "default": "wifi",
+            "preset": true
           },
           {
             "name": "HM_URL_SUFFIX",
             "label": "Domain*",
             "description": "i.e. adipsys.com",
-            "default": "adipsys.fr"
+            "default": "adipsys.fr",
+            "preset": true
           },
           {
             "name": "WEB_IHM_PORT",
             "label": "Web interface HTTP port (TCP)",
-            "description": "If empty, default port is chosen."
+            "description": "If empty, default port is chosen.",
+            "preset": true
           },
           {
             "name": "WEB_IHM_SSL_PORT",
             "label": "Web interface HTTPS port (TCP)",
-            "description": "If empty, default port is chosen."
+            "description": "If empty, default port is chosen.",
+            "preset": true
           },
           {
             "name": "RADIUS_AUTH_PORT",
             "label": "Radius authentication port (UDP)",
-            "description": "If empty, default port is chosen."
+            "description": "If empty, default port is chosen.",
+            "preset": true
           },
           {
             "name": "RADIUS_ACC_PORT",
             "label": "Radius accounting port (UDP)",
-            "description": "If empty, default port is chosen."
+            "description": "If empty, default port is chosen.",
+            "preset": true
           },
           {
             "name": "HOTSPOT_ALIAS1",
             "label": "Hotspot URL Alias",
             "description": "If you need a secondary URL for your Hotspot.",
-            "default": "*.demo.adipsys.fr"
+            "default": "*.demo.adipsys.fr",
+            "preset": true
           },
           {
             "name": "ADMIN_ALIAS1",
             "label": "Admin URL Alias",
             "description": "If you need a secondary URL for your Admin interface.",
-            "default": "*.demo.adipsys.fr"
+            "default": "*.demo.adipsys.fr",
+            "preset": true
           },
           {
             "name": "RSYSLOG_SERVER",
@@ -75,7 +83,8 @@
           {
             "name": "OPERATOR_SUPPORT_EMAIL",
             "label": "Your Company support Email.",
-            "default": "support@adipsys.com"
+            "default": "support@adipsys.com",
+            "preset": true
           }
     ]
  },
