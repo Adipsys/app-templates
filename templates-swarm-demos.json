@@ -104,46 +104,52 @@
       {
         "name": "MYSQL_ROOT_PASSWORD",
         "label": "MySQL Database Root Password*",
-        "description": "Please keep the password for further use."
+        "description": "Please keep the password for further use.",
+        "default": "adipsysdemos",
+        "preset": true
       },
       {
         "name": "SERVER_NAME",
         "label": "Server URL*",
-        "description": "This is the URL of the Admin interface (has also to be set onto your DNS)"
+        "description": "This is the URL of the Admin interface (has also to be set onto your DNS)",
+        "default": "dnsprotect.demo.adipsys.fr",
+        "preset": true
       },
       {
         "name": "SERVER_ALIAS",
         "label": "Server Alias",
-        "description": "If you wish to use a secondary name or a wildcard (has also to be set onto your DNS)"
+        "description": "If you wish to use a secondary name or a wildcard (has also to be set onto your DNS)",
+        "preset": true
       },
       {
         "name": "ADMIN_PASSWD",
         "label": "Administration interface password",
         "description": "Use account : admin",
-        "default": "godnsp!"
+        "default": "demoadipsys"
       },
       {
         "name": "WEB_IHM_PORT",
         "label": "Web interface HTTP port (TCP)",
         "description": "If empty, default port is chosen. (it is not advised to use a different port)",
-        "default": "80"
+        "preset": true
       },
       {
         "name": "WEB_IHM_SSL_PORT",
         "label": "Web interface HTTPS port (TCP)",
         "description": "If empty, default port is chosen.",
-        "default": "443"
+        "preset": true
       },
       {
         "name": "DNS_PORT",
         "label": "DNS server port (UDP)",
         "description": "If empty, default port is chosen. (it is not advised to use a different port)",
-        "default": "53"
+        "preset": true
       },
       {
         "name": "RSYSLOG_SERVER",
         "label": "Loghost",
-        "description": "If you need to send logs on another server (ie. LOGview)."
+        "description": "If you need to send logs on another server (ie. LOGview).",
+        "preset": true
       }
     ]
  },
@@ -192,38 +198,43 @@
       {
         "name": "MYSQL_ROOT_PASSWORD",
         "label": "MySQL Database Root Password*",
-        "description": "Please keep the password for further use."
-      },
+        "description": "Please keep the password for further use.",
+        "default": "adipsysdemos",
+        "preset": true
       {
        "name": "OPERATOR",
-       "label": "Operator*",
-       "description": "Your Company Name (without spaces nor special chars)."
+       "label": "Prospect*",
+       "description": "Prospect Company Name (without spaces nor special chars)."
       },
       {
         "name": "STUDIO_NAME",
         "label": "Server URL*",
-        "description": "This is the URL of the server (has also to be set onto your DNS)."
+        "description": "This is the URL of the server (has also to be set onto your DNS).",
+        "default": "studio.demo.adipsys.fr",
+        "preset": true
       },
       {
         "name": "WEB_IHM_PORT",
         "label": "Web interface HTTP port (TCP)",
         "description": "If empty, default port is chosen.",
-        "default": "8180"
+        "preset": true
       },
       {
         "name": "WEB_IHM_SSL_PORT",
         "label": "Web interface HTTPS port (TCP)",
         "description": "If empty, default port is chosen.",
-        "default": "8143"
+        "preset": true
       },
       {
         "name": "OPERATOR_SUPPORT_EMAIL",
         "label": "Support Email*",
-        "default": "support@adipsys.com"
+        "default": "support@adipsys.com",
+        "preset": true
       },
       {
         "name": "ADMIN_PASSWD",
-        "label": "Administration interface Password*"
+        "label": "Administration interface Password*",
+        "default": "demoadipsys"
       }
     ]
  },
