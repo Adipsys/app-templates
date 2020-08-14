@@ -20,7 +20,7 @@
           },
           {
             "name": "OPERATOR",
-            "label": "Operator*",
+            "label": "Prospect*",
             "description": "Prospect Company Name (without spaces nor special chars)."
           },
           {
@@ -78,7 +78,8 @@
           {
             "name": "RSYSLOG_SERVER",
             "label": "Loghost",
-            "description": "If you need to send logs on another server (ie. LOGview)."
+            "description": "If you need to send logs on another server (ie. LOGview).",
+            "preset": true
           },
           {
             "name": "OPERATOR_SUPPORT_EMAIL",
