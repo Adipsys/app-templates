@@ -16,7 +16,7 @@
             "label": "MySQL Database Root Password*",
             "description": "Please keep the password for further use.",
             "default": "adipsysdemos",
-            "preset": "true"
+            "preset": 1
           },
           {
             "name": "OPERATOR",
