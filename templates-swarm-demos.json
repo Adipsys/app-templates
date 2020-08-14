@@ -3,7 +3,7 @@
   "type": 2,
   "title": "HotspotManager DEMO",
   "description": "Create captive portals compliant with Wi-Fi legislation and collect data.",
-  "note": "Adipsys HotspotManager : Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
+  "note": "http://hm-demo.adipsys.fr",
   "platform": "linux",
   "administrator_only": true,
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Logo-Hotspot-Manager-200x200-optimise.png",
@@ -27,7 +27,7 @@
             "name": "HM_SERVER_NAME",
             "label": "Server Name*",
             "description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
-            "default": "wifi",
+            "default": "hm-demo",
             "preset": true
           },
           {
@@ -93,7 +93,7 @@
   "type": 2,
   "title": "DNSprotect DEMO",
   "description": "Securize Wi-Fi connection: protect users by filtering malicious/illegal contents.",
-  "note": "Adipsys DNSprotect : Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
+  "note": "http://dnsprotect-demo.adipsys.fr",
   "platform": "linux",
   "administrator_only": true,
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-dns-protect-200x200-optimise.png",
@@ -112,7 +112,7 @@
         "name": "SERVER_NAME",
         "label": "Server URL*",
         "description": "This is the URL of the Admin interface (has also to be set onto your DNS)",
-        "default": "dnsprotect.demo.adipsys.fr",
+        "default": "dnsprotect-demo.adipsys.fr",
         "preset": true
       },
       {
@@ -179,7 +179,7 @@
         "name": "WEB_IHM_PORT",
         "label": "Web interface HTTP port (TCP)",
         "description": "If empty, default port is chosen.",
-        "default": "5601"
+        "preset": true
       }
     ] 
  },
@@ -187,7 +187,7 @@
   "type": 2,
   "title": "STUDIO DEMO",
   "description": "Create and broadcast targeted advertising and informational contents before and / or after the captive portal.",
-  "note": "Adipsys STUDIO : Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
+  "note": "http://studio-demo.adipsys.fr",
   "platform": "linux",
   "administrator_only": true,
   "logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
@@ -211,7 +211,7 @@
         "name": "STUDIO_NAME",
         "label": "Server URL*",
         "description": "This is the URL of the server (has also to be set onto your DNS).",
-        "default": "studio.demo.adipsys.fr",
+        "default": "studio-demo.adipsys.fr",
         "preset": true
       },
       {
