@@ -15,7 +15,8 @@
             "name": "MYSQL_ROOT_PASSWORD",
             "label": "MySQL Database Root Password*",
             "description": "Please keep the password for further use.",
-            "default": "adipsysdemos"
+            "default": "adipsysdemos",
+            "preset": "true"
           },
           {
             "name": "OPERATOR",
@@ -31,7 +32,8 @@
           {
             "name": "HM_URL_SUFFIX",
             "label": "Domain*",
-            "description": "i.e. adipsys.com"
+            "description": "i.e. adipsys.com",
+            "default": "adipsys.fr"
           },
           {
             "name": "WEB_IHM_PORT",
