@@ -201,6 +201,7 @@
         "description": "Please keep the password for further use.",
         "default": "adipsysdemos",
         "preset": true
+      },
       {
        "name": "OPERATOR",
        "label": "Prospect*",
