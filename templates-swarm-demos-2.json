@@ -138,7 +138,7 @@
 					"description": "If empty, default port is chosen. (it is not advised to use a different port)",
 					"label": "DNS server port (UDP)",
 					"name": "DNS_PORT",
-					"preset": true
+					"default": "53"
 				},
 				{
 					"description": "If you need to send logs on another server (ie. LOGview).",
