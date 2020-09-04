@@ -143,7 +143,7 @@
         "name": "DNS_PORT",
         "label": "DNS server port (UDP)",
         "description": "If empty, default port is chosen. (it is not advised to use a different port)",
-        "preset": true
+        "default": "53"
       },
       {
         "name": "RSYSLOG_SERVER",
