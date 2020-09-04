@@ -1,0 +1,279 @@
+{
+	"version": "2",
+	"templates": [
+		{
+			"administrator_only": true,
+			"description": "Create captive portals compliant with Wi-Fi legislation and collect data.",
+			"env": [
+				{
+					"default": "adipsysdemos",
+					"description": "Please keep the password for further use.",
+					"label": "MySQL Database Root Password*",
+					"name": "MYSQL_ROOT_PASSWORD",
+					"preset": true
+				},
+				{
+					"description": "Prospect Company Name (without spaces nor special chars).",
+					"label": "Prospect*",
+					"name": "OPERATOR"
+				},
+				{
+					"default": "hm-demo",
+					"description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
+					"label": "Server Name*",
+					"name": "HM_SERVER_NAME",
+					"preset": true
+				},
+				{
+					"default": "adipsys.fr",
+					"description": "i.e. adipsys.com",
+					"label": "Domain*",
+					"name": "HM_URL_SUFFIX",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Web interface HTTP port (TCP)",
+					"name": "WEB_IHM_PORT",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Web interface HTTPS port (TCP)",
+					"name": "WEB_IHM_SSL_PORT",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Radius authentication port (UDP)",
+					"name": "RADIUS_AUTH_PORT",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Radius accounting port (UDP)",
+					"name": "RADIUS_ACC_PORT",
+					"preset": true
+				},
+				{
+					"default": "*.demo.adipsys.fr",
+					"description": "If you need a secondary URL for your Hotspot.",
+					"label": "Hotspot URL Alias",
+					"name": "HOTSPOT_ALIAS1",
+					"preset": true
+				},
+				{
+					"default": "*.demo.adipsys.fr",
+					"description": "If you need a secondary URL for your Admin interface.",
+					"label": "Admin URL Alias",
+					"name": "ADMIN_ALIAS1",
+					"preset": true
+				},
+				{
+					"description": "If you need to send logs on another server (ie. LOGview).",
+					"label": "Loghost",
+					"name": "RSYSLOG_SERVER",
+					"preset": true
+				},
+				{
+					"default": "support@adipsys.com",
+					"label": "Your Company support Email.",
+					"name": "OPERATOR_SUPPORT_EMAIL",
+					"preset": true
+				}
+			],
+			"logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Logo-Hotspot-Manager-200x200-optimise.png",
+			"note": "https://hm-demo-admin.adipsys.fr",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "docker-stack.yml",
+				"url": "https://github.com/adipsys/HotspotManager-compose"
+			},
+			"title": "HotspotManager DEMO",
+			"type": 2
+		},
+		{
+			"administrator_only": true,
+			"description": "Securize Wi-Fi connection: protect users by filtering malicious/illegal contents.",
+			"env": [
+				{
+					"default": "adipsysdemos",
+					"description": "Please keep the password for further use.",
+					"label": "MySQL Database Root Password*",
+					"name": "MYSQL_ROOT_PASSWORD",
+					"preset": true
+				},
+				{
+					"default": "dnsprotect-demo.adipsys.fr",
+					"description": "This is the URL of the Admin interface (has also to be set onto your DNS)",
+					"label": "Server URL*",
+					"name": "SERVER_NAME",
+					"preset": true
+				},
+				{
+					"description": "If you wish to use a secondary name or a wildcard (has also to be set onto your DNS)",
+					"label": "Server Alias",
+					"name": "SERVER_ALIAS",
+					"preset": true
+				},
+				{
+					"default": "demoadipsys",
+					"description": "Use account : admin",
+					"label": "Administration interface password",
+					"name": "ADMIN_PASSWD"
+				},
+				{
+					"description": "If empty, default port is chosen. (it is not advised to use a different port)",
+					"label": "Web interface HTTP port (TCP)",
+					"name": "WEB_IHM_PORT",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Web interface HTTPS port (TCP)",
+					"name": "WEB_IHM_SSL_PORT",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen. (it is not advised to use a different port)",
+					"label": "DNS server port (UDP)",
+					"name": "DNS_PORT",
+					"preset": true
+				},
+				{
+					"description": "If you need to send logs on another server (ie. LOGview).",
+					"label": "Loghost",
+					"name": "RSYSLOG_SERVER",
+					"preset": true
+				}
+			],
+			"logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-dns-protect-200x200-optimise.png",
+			"note": "http://dnsprotect-demo.adipsys.fr",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "docker-stack.yml",
+				"url": "https://github.com/adipsys/DNSprotect-compose"
+			},
+			"title": "DNSprotect DEMO",
+			"type": 2
+		},
+		{
+			"administrator_only": true,
+			"description": "Solution to trace Wi-Fi and handle the mandatory storage of legal logs.",
+			"env": [
+				{
+					"description": "This password will have to be initialized on elastic.",
+					"label": "elastic account*",
+					"name": "ELASTICSEARCH_PASSWORD"
+				},
+				{
+					"description": "This password will have to be initialized on elastic.",
+					"label": "kibana_system account*",
+					"name": "KIBANA_PASSWORD"
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Web interface HTTP port (TCP)",
+					"name": "WEB_IHM_PORT",
+					"preset": true
+				}
+			],
+			"logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Pictos-log-view-200x200-optimise.png",
+			"note": "Adipsys LOGview : Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com . Please run once : bin/elasticsearch-setup-passwords interactive to set credentials.",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "docker-stack.yml",
+				"url": "https://github.com/adipsys/LOGview-compose"
+			},
+			"title": "LOGview DEMO",
+			"type": 2
+		},
+		{
+			"administrator_only": true,
+			"description": "Create and broadcast targeted advertising and informational contents before and / or after the captive portal.",
+			"env": [
+				{
+					"default": "adipsysdemos",
+					"description": "Please keep the password for further use.",
+					"label": "MySQL Database Root Password*",
+					"name": "MYSQL_ROOT_PASSWORD",
+					"preset": true
+				},
+				{
+					"description": "Prospect Company Name (without spaces nor special chars).",
+					"label": "Prospect*",
+					"name": "OPERATOR"
+				},
+				{
+					"default": "studio-demo.adipsys.fr",
+					"description": "This is the URL of the server (has also to be set onto your DNS).",
+					"label": "Server URL*",
+					"name": "STUDIO_NAME",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Web interface HTTP port (TCP)",
+					"name": "WEB_IHM_PORT",
+					"preset": true
+				},
+				{
+					"description": "If empty, default port is chosen.",
+					"label": "Web interface HTTPS port (TCP)",
+					"name": "WEB_IHM_SSL_PORT",
+					"preset": true
+				},
+				{
+					"default": "support@adipsys.com",
+					"label": "Support Email*",
+					"name": "OPERATOR_SUPPORT_EMAIL",
+					"preset": true
+				},
+				{
+					"default": "demoadipsys",
+					"label": "Administration interface Password*",
+					"name": "ADMIN_PASSWD"
+				}
+			],
+			"logo": "https://www.adipsys.com/wp-content/uploads/2019/08/Picto-Studio-200x200-optimise.png",
+			"note": "http://studio-demo.adipsys.fr",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "docker-stack.yml",
+				"url": "https://github.com/adipsys/STUDIO-compose"
+			},
+			"title": "STUDIO DEMO",
+			"type": 2
+		},
+		{
+			"administrator_only": true,
+			"description": "Monitor UP! from an external Zabbix server.",
+			"env": [
+				{
+					"label": "Hostname",
+					"name": "ZBX_HOSTNAME"
+				},
+				{
+					"label": "Server",
+					"name": "ZBX_SERVER_HOST"
+				},
+				{
+					"label": "Passive servers",
+					"name": "ZBX_PASSIVESERVERS"
+				},
+				{
+					"label": "Active serveres",
+					"name": "ZBX_ACTIVESERVERS"
+				}
+			],
+			"image": "zabbix/zabbix-agent",
+			"logo": "https://assets.zabbix.com/img/logo/zabbix_logo_313x82.png",
+			"note": "Please read documentation on http://docs.adipsys.com. You can open a ticket at https://support.adipsys.com",
+			"platform": "linux",
+			"ports": [
+				"10050:10050/tcp"
+			],
+			"title": "Zabbix-Agent",
+			"type": 1
+		}
+	]]
