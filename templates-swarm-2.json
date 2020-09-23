@@ -5,6 +5,12 @@
 			"administrator_only": true,
 			"description": "Create captive portals compliant with Wi-Fi legislation and collect data.",
 			"env": [
+                {
+                    "description": "Release version",
+                    "label": "Release",
+                    "name": "PRODUCT_VERSION",
+                    "default": "latest"
+                },
 				{
 					"description": "Please keep the password for further use.",
 					"label": "MySQL Database Root Password*",
@@ -85,6 +91,12 @@
 			"administrator_only": true,
 			"description": "Securize Wi-Fi connection: protect users by filtering malicious/illegal contents.",
 			"env": [
+                {
+                    "description": "Release version",
+                    "label": "Release",
+                    "name": "PRODUCT_VERSION",
+                    "default": "latest"
+                },
 				{
 					"description": "Please keep the password for further use.",
 					"label": "MySQL Database Root Password*",
@@ -144,6 +156,12 @@
 			"administrator_only": true,
 			"description": "Solution to trace Wi-Fi and handle the mandatory storage of legal logs.",
 			"env": [
+                {
+                    "description": "Release version",
+                    "label": "Release",
+                    "name": "PRODUCT_VERSION",
+                    "default": "latest"
+                },
 				{
 					"description": "This password will have to be initialized on elastic.",
 					"label": "elastic account*",
@@ -175,6 +193,12 @@
 			"administrator_only": true,
 			"description": "Create and broadcast targeted advertising and informational contents before and / or after the captive portal.",
 			"env": [
+                {
+                    "description": "Release version",
+                    "label": "Release",
+                    "name": "PRODUCT_VERSION",
+                    "default": "latest"
+                },
 				{
 					"description": "Please keep the password for further use.",
 					"label": "MySQL Database Root Password*",
