@@ -11,6 +11,13 @@
                     "name": "PRODUCT_VERSION",
                     "default": "latest"
                 },
+                {
+                    "description": "Licence server",
+                    "label": "Release",
+                    "name": "LICENCE_SERVER",
+                    "default": "licences.adipsys.com",
+                    "preset": true
+                },
 				{
 					"description": "Please keep the password for further use.",
 					"label": "MySQL Database Root Password*",
