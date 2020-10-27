@@ -68,6 +68,12 @@
 					"name": "RADIUS_ACC_PORT",
 					"preset": true
 				},
+                {
+                    "description": "If empty, default port is chosen.",
+                    "label": "Loghost port (UDP)",
+                    "name": "LOGHOST_PORT",
+                    "preset": true
+                },
 				{
 					"default": "*.demo.adipsys.fr",
 					"description": "If you need a secondary URL for your Hotspot.",

@@ -63,6 +63,12 @@
 					"label": "Radius accounting port (UDP)",
 					"name": "RADIUS_ACC_PORT"
 				},
+                {
+                    "default": "514",
+                    "description": "If empty, default port is chosen.",
+                    "label": "Loghost port (UDP)",
+                    "name": "LOGHOST_PORT"
+                },
 				{
 					"description": "If you need a secondary URL for your Hotspot.",
 					"label": "Hotspot URL Alias",
