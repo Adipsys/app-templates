@@ -181,7 +181,7 @@
                     "name": "OPERATOR"
                 },
                 {
-                    "description": "This is the Name of the server as it will be registered.",
+                    "description": "This is the URL or the Name of the server for Adipsys registration.",
                     "label": "Server Name*",
                     "name": "LOGVIEW_NAME"
                 },
