@@ -75,20 +75,6 @@
                     "preset": true
                 },
 				{
-					"default": "*.demo.adipsys.fr",
-					"description": "If you need a secondary URL for your Hotspot.",
-					"label": "Hotspot URL Alias",
-					"name": "HOTSPOT_ALIAS1",
-					"preset": true
-				},
-				{
-					"default": "*.demo.adipsys.fr",
-					"description": "If you need a secondary URL for your Admin interface.",
-					"label": "Admin URL Alias",
-					"name": "ADMIN_ALIAS1",
-					"preset": true
-				},
-				{
 					"description": "If you need to send logs on another server (ie. LOGview).",
 					"label": "Loghost",
 					"name": "RSYSLOG_SERVER",
