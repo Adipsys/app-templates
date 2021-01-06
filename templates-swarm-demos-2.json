@@ -33,7 +33,7 @@
 					"preset": false
 				},
 				{
-					"default": "demo.adipsys.fr",
+					"default": "hmdemo.adipsys.fr",
 					"description": "i.e. adipsys.com",
 					"label": "Domain*",
 					"name": "HM_URL_SUFFIX",
