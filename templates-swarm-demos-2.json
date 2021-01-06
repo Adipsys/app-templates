@@ -37,7 +37,7 @@
 					"preset": false
 				},
 				{
-					"default": "hmdemo.adipsys.fr",
+					"default": "adipsys-demos.fr",
 					"description": "i.e. adipsys.com",
 					"label": "Domain*",
 					"name": "HM_URL_SUFFIX",
@@ -114,7 +114,7 @@
 					"preset": true
 				},
 				{
-					"default": "dnsprotect-demo.adipsys.fr",
+					"default": "dnsprotect.adipsys-demos.fr",
 					"description": "This is the URL of the Admin interface (has also to be set onto your DNS)",
 					"label": "Server URL*",
 					"name": "SERVER_NAME",
@@ -227,7 +227,7 @@
 					"name": "OPERATOR"
 				},
 				{
-					"default": "studio-demo.adipsys.fr",
+					"default": "studio.adipsys-demos.fr",
 					"description": "This is the URL of the server (has also to be set onto your DNS).",
 					"label": "Server URL*",
 					"name": "STUDIO_NAME",
