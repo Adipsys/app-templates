@@ -31,7 +31,6 @@
                     "name": "OPERATOR"
                 },
 				{
-					"default": "prospect",
 					"description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
 					"label": "Prospect Name*",
 					"name": "HM_SERVER_NAME",
