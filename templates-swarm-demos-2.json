@@ -31,14 +31,14 @@
 					"name": "OPERATOR"
 				},
 				{
-					"default": "hm-demo",
+					"default": "operator",
 					"description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
 					"label": "Server Name*",
 					"name": "HM_SERVER_NAME",
-					"preset": true
+					"preset": false
 				},
 				{
-					"default": "adipsys.fr",
+					"default": "demo.adipsys.fr",
 					"description": "i.e. adipsys.com",
 					"label": "Domain*",
 					"name": "HM_URL_SUFFIX",
@@ -105,7 +105,7 @@
 			"note": "https://hm-demo-admin.adipsys.fr",
 			"platform": "linux",
 			"repository": {
-				"stackfile": "docker-stack.yml",
+				"stackfile": "docker-stack-demos.yml",
 				"url": "https://github.com/adipsys/HotspotManager-compose"
 			},
 			"title": "HotspotManager DEMO",
