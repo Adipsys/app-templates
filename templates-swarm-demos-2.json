@@ -25,6 +25,11 @@
 					"name": "MYSQL_ROOT_PASSWORD",
 					"preset": true
 				},
+                {
+                    "description": "Your Company Name (without spaces nor special chars).",
+                    "label": "Operator*",
+                    "name": "OPERATOR"
+                },
 				{
 					"default": "prospect",
 					"description": "This is the hostname that will be used with the domain to generate all the URL of the server.",
