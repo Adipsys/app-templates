@@ -18,6 +18,12 @@
                     "default": "licences.adipsys.com",
                     "preset": true
                 },
+                {
+                    "description": "Timezone that will be used by the application",
+                    "label": "Timezone",
+                    "name": "TZ",
+                    "default": "Europe/Paris"
+                },
 				{
 					"description": "Please keep the password for further use.",
 					"label": "MySQL Database Root Password*",
