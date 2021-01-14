@@ -22,7 +22,8 @@
                     "description": "Timezone that will be used by the application",
                     "label": "Timezone",
                     "name": "TZ",
-                    "default": "Europe/Paris"
+                    "default": "Europe/Paris",
+                    "preset": true
                 },
 				{
 					"default": "adipsysdemos",
