@@ -65,14 +65,12 @@
 				{
 					"description": "If empty, default port is chosen.",
 					"label": "Radius authentication port (UDP)",
-					"name": "RADIUS_AUTH_PORT",
-					"preset": true
+					"name": "RADIUS_AUTH_PORT"
 				},
 				{
 					"description": "If empty, default port is chosen.",
 					"label": "Radius accounting port (UDP)",
-					"name": "RADIUS_ACC_PORT",
-					"preset": true
+					"name": "RADIUS_ACC_PORT"
 				},
                 {
                     "description": "If empty, default port is chosen.",
