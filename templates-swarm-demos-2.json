@@ -23,7 +23,7 @@
                     "label": "Timezone",
                     "name": "TZ",
                     "default": "Europe/Paris",
-                    "preset": true
+                    "preset": false
                 },
 				{
 					"default": "adipsysdemos",
