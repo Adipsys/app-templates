@@ -201,6 +201,11 @@
 					"label": "kibana_system account*",
 					"name": "KIBANA_PASSWORD"
 				},
+                {
+                    "description": "This is the full URL used to reach your Kibana (including port).",
+                    "label": "Kibana Base URL*",
+                    "name": "BASE_URL"
+                },
 				{
 					"default": "5601",
 					"description": "If empty, default port is chosen.",
