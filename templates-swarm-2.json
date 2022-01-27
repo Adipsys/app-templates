@@ -46,13 +46,13 @@
 					"name": "HM_URL_SUFFIX"
 				},
 				{
-					"default": "8080",
+					"default": "80",
 					"description": "If empty, default port is chosen.",
 					"label": "Web interface HTTP port (TCP)",
 					"name": "WEB_IHM_PORT"
 				},
 				{
-					"default": "8043",
+					"default": "443",
 					"description": "If empty, default port is chosen.",
 					"label": "Web interface HTTPS port (TCP)",
 					"name": "WEB_IHM_SSL_PORT"
