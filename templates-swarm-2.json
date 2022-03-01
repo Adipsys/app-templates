@@ -101,7 +101,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "docker-stack.yml",
-				"url": "https://github.com/adipsys/HotspotManager-compose"
+				"url": "https://gitlab.adipsys.com/deploy/hotspotmanager-compose"
 			},
 			"title": "HotspotManager",
 			"type": 2
@@ -166,7 +166,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "docker-stack.yml",
-				"url": "https://github.com/adipsys/DNSprotect-compose"
+				"url": "https://gitlab.adipsys.com/deploy/dnsprotect-compose"
 			},
 			"title": "DNSprotect",
 			"type": 2
@@ -218,7 +218,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "docker-stack.yml",
-				"url": "https://github.com/adipsys/LOGview-compose"
+				"url": "https://gitlab.adipsys.com/deploy/logview-compose"
 			},
 			"title": "LOGview",
 			"type": 2
@@ -275,7 +275,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "docker-stack.yml",
-				"url": "https://github.com/adipsys/STUDIO-compose"
+				"url": "https://gitlab.adipsys.com/deploy/studio-compose"
 			},
 			"title": "STUDIO",
 			"type": 2
