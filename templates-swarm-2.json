@@ -9,7 +9,7 @@
                     "description": "Release version",
                     "label": "Release",
                     "name": "PRODUCT_VERSION",
-                    "default": "latest"
+                    "default": "3.25.6"
                 },
                 {
                     "description": "Licence server",
@@ -114,7 +114,7 @@
                     "description": "Release version",
                     "label": "Release",
                     "name": "PRODUCT_VERSION",
-                    "default": "latest"
+                    "default": "2.3.0"
                 },
 				{
 					"description": "Please keep the password for further use.",
@@ -179,7 +179,7 @@
                     "description": "Release version",
                     "label": "Release",
                     "name": "PRODUCT_VERSION",
-                    "default": "latest"
+                    "default": "7.16.1"
                 },
                 {
                     "description": "Your Company Name (without spaces nor special chars).",
@@ -231,7 +231,7 @@
                     "description": "Release version",
                     "label": "Release",
                     "name": "PRODUCT_VERSION",
-                    "default": "latest"
+                    "default": "1.1.5"
                 },
 				{
 					"description": "Please keep the password for further use.",
